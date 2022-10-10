@@ -1,18 +1,10 @@
 import random
+number=random.randint(1,6)
+guess=int(input("Enter a number from 1 to 6:"))
 
-(random.randint(1,6))
+if guess==number:
+ print("Correct!")
 
-a= random.randint (1,6)
- 
-input("Enter a number from 1 to 6: ")
-
-b= input 
-
-if a != b:
-
-  print("Incorrect,the number was: %d" %(a))
-  
 else:
-
-  print("Correct: %d" %(a))
-  
+ print ("Incorrect.")
+print ("The number was", number)
